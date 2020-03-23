@@ -90,9 +90,9 @@ else
 endif
 
 PRODUCT_SOONG_NAMESPACES += \
-  hardware/qcom/audio-caf/$(QCOM_HARDWARE_VARIANT) \
-  hardware/qcom/display-caf/$(QCOM_HARDWARE_VARIANT) \
-  hardware/qcom/media-caf/$(QCOM_HARDWARE_VARIANT)
+  hardware/qcom/audio \
+  hardware/qcom/display \
+  hardware/qcom/media
 
 ifneq ($(TARGET_USES_PREBUILT_CAMERA_SERVICE), true)
 PRODUCT_SOONG_NAMESPACES += \
